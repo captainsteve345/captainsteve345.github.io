@@ -1,5 +1,6 @@
-function randomImg(){
-    var randomNumber = Math.floor(Math.random() * 25) + 1;
-    var imgName = "img_" + randomNumber + ".jpg";
-    document.getElementById("greenbox").src= "IMG Path" + "/" + imgName ;
- }
+let randomNumber = Math.floor(Math.random() * 25) + 1;
+let imgName = "img_" + randomNumber + ".jpg";
+document.getElementById("greenbox").src= "Senkis" + "/" + imgName ;
+
+let newsenko = document.getElementById("newsenko");
+
